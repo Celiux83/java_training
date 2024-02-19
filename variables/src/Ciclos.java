@@ -33,8 +33,16 @@ public class Ciclos {
 
         System.out.println("Ahora soy el numero " + init);
 
+        // do - while
         /*
-        Do-while q
+            do {
+                //hacer algo, lógica
+            } while (condición);
          */
+        int contador = 1;
+        do {
+            System.out.println("Soy el número " + contador);
+            contador ++; // contador = contador + 1;
+        } while(contador <= 5); //1era vez es 1
     }
 }

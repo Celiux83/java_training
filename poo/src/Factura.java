@@ -1,4 +1,4 @@
-public class factura {
+public class Factura {
 
     // Atributos
     private String codigoProducto;
@@ -11,10 +11,10 @@ public class factura {
 
     //Constructor
 
-    public factura(){ System.out.println("Constructor general");
+    public Factura(){ System.out.println("Constructor general");
     }
 
-    public factura(String codigo, String rfc, String razon){
+    public Factura(String codigo, String rfc, String razon){
         System.out.println("Constructor con codigo, RFC y Razon Social.");
         this.codigoProducto = codigo;
         this.registroFederalContribuyente = rfc;

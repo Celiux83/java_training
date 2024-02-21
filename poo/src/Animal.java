@@ -1,4 +1,4 @@
-public class animal {
+public class Animal {
     //Atributos
 
     //cadena de caracteres y es una clase
@@ -12,16 +12,16 @@ public class animal {
 
     //Constructor
 
-    public animal(){
+    public Animal(){
         System.out.println("Constructor general");
     }
 
-    public animal(String esqueletoAnimal){
+    public Animal(String esqueletoAnimal){
         System.out.println("Constructor con tipo de esqueleto de animal");
         this.esqueletoAnimal = esqueletoAnimal;
     }
 
-    public animal(String esqueletoAnimal, String alimentacionDeAnimal){
+    public Animal(String esqueletoAnimal, String alimentacionDeAnimal){
         System.out.println("Constructor con estructura y alimentacion de animal");
         this.esqueletoAnimal=esqueletoAnimal;
         this.alimentacionDeAnimal=alimentacionDeAnimal;

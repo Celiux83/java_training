@@ -1,6 +1,6 @@
 
 
-public class libro {
+public class Libro {
     //Atributos
 
     //cadena de caracteres y es una clase
@@ -13,11 +13,11 @@ public class libro {
 
     //Constructor
 
-    public libro() {
+    public Libro() {
         System.out.println("Constructor general");
     }
 
-    public libro(String titulo, String autor, String genero, int ejemplaresLibro, int ejemplaresPrestados) {
+    public Libro(String titulo, String autor, String genero, int ejemplaresLibro, int ejemplaresPrestados) {
         System.out.println("Constructor con parametros");
         this.tituloLibro = titulo;
         this.autor = autor;

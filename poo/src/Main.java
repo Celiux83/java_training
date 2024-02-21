@@ -1,8 +1,6 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-
+/*
         //llamar la clase carro
 
         carro coche1 = new carro(); // utilizando constructor 1
@@ -11,6 +9,21 @@ public class Main {
 
         System.out.println(coche2.getVin(3));
         System.out.println(coche3.getColor());
+
+
+        coche1.arrancar("coche 1");
+        coche1.avanzar();
+        coche2.arrancar("coche 2");
+        coche2.avanzar();
+        coche1.girar();
+        coche1.frenar();
+
+        coche3.arrancar("coche 3");
+
+        coche3 = new carro("vin2","rojo");
+        System.out.println(coche3.getColor());
+
+
 
         //llamar la clase libro
         libro libro1 = new libro(); // utilizando constructor 1
@@ -83,6 +96,22 @@ public class Main {
         System.out.println(factura2.getRegistroFederalContribuyente());
 
 
+*/
+        // nuestra clase principal es carro por eso utilizamos todos sus metos y funciones
+        //Clase principal es carro
+        Vehiculo deportivo = new Autodeportivo("El Rojo");
+        deportivo.avanzar();
+        deportivo.nombre("Auto deportivo");
+        deportivo.arrancar("Mi auto");
+
+        //Clase principal es deportivo
+        Autodeportivo deportivo2 = new Autodeportivo("La golfa");
+        deportivo2.setTurbo(true);
+        deportivo.avanzar();
+        deportivo2.nombre();
+
+        Bote bote = new Bote();
+        bote.arrancar();
 
       }
 

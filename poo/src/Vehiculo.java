@@ -1,6 +1,4 @@
-import java.util.Set;
-
-public class carro {
+public class Vehiculo {
     //Atributos
 
     //cadena de caracteres y es una clase
@@ -15,16 +13,16 @@ public class carro {
 
     //Constructor
 
-    public carro(){
+    public Vehiculo(){
         System.out.println("Constructor general");
     }
 
-    public carro(String vin){
+    public Vehiculo(String vin){
         System.out.println("Constructor con vin");
         this.vin = vin;
     }
 
-    public carro (String vin, String color){
+    public Vehiculo(String vin, String color){
         System.out.println("Constructor con color y vin");
         this.vin=vin;
         this.color=color;
@@ -113,9 +111,13 @@ public class carro {
         System.out.println("GIRA...");
     }
 
-    private void arrancar (){
-        System.out.println("ARRANCANDO...");
+    public void arrancar (String nombreCarro){
+        System.out.println(nombreCarro + " ARRANCANDO...");
     }
 
-
+public void nombre(String tipo){
+        if(tipo == "Auto deportivo"){
+            System.out.println("Es un auto deportivo");
+        }else System.out.println("No solo un vehiculo");
+}
 }

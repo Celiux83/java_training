@@ -1,4 +1,4 @@
-public class perro {
+public class Perro {
     //Atributos
 
 
@@ -13,16 +13,16 @@ public class perro {
 
     //Constructor
 
-    public perro(){
+    public Perro(){
         System.out.println("Constructor general");
     }
 
-    public perro(String razaPerro){
+    public Perro(String razaPerro){
         System.out.println("Constructor con raza");
         this.razaPerro = razaPerro;
     }
 
-    public perro(String razaPerro, String sexoPerro){
+    public Perro(String razaPerro, String sexoPerro){
         System.out.println("Constructor con raza y sexo de perro");
         this.razaPerro=razaPerro;
         this.sexoPerro=sexoPerro;
